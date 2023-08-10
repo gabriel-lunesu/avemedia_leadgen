@@ -9,14 +9,14 @@ function Header() {
   }, []);
 
   return (
-    <header className="header-main full-height valign bg-img parallaxie" data-background="/dark/assets/imgs/background/14.jpg"
+    <header className="header-main full-height valign bg-img parallaxie" data-background="/dark/assets/imgs/background/bg-banner.jpg"
       data-overlay-dark="7">
       <div className="container ontop">
         <div className="row">
           <div className="col-lg-8">
             <div className="caption">
-              <h5 className="fw-300 mb-15">Digital agency studio</h5>
-              <h1 className="fz-80">a creative digital design studio</h1>
+              <h5 className="fw-300 mb-15">Digital Agency - Ave Media</h5>
+              <h1 className="fz-50">#1 Lead Generation <br/> Agency in The <u>UAE</u>.</h1>
             </div>
           </div>
           <div className="col-lg-4 d-flex align-items-end justify-content-end justify-end">
@@ -48,7 +48,7 @@ function Header() {
                 </Link>
               </div>
               <div>
-                <h6 className="sub-title">Explore <br /> Our Portfolio</h6>
+                <h6 className="sub-title">Explore <br /> About us</h6>
               </div>
             </div>
           </div>

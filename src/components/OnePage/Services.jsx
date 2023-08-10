@@ -52,7 +52,7 @@ function Services({ lightMode }) {
             </div>
             <div className="col-lg-4 d-flex align-items-center">
               <div className="text d-rotate wow md-mb30">
-                <p className="rotate-text">Finding the best marketing solution for your business. Driven by data based on human behavior.</p>
+                <p className="rotate-text">At <b><u>Ave Media</u></b> we don't <b>only</b> do <i>lead generation</i>. <br/>We provide <u>all</u> services you're business could need.</p>
               </div>
             </div>
             <div className="col-lg-3 d-flex align-items-center wow fadeIn">

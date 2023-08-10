@@ -19,11 +19,11 @@ function Intro() {
           <div className="col-lg-5 valign md-mb50">
             <div className="imgs mb-80">
               <div className="img1 wow fadeInUp">
-                <img src="/dark/assets/imgs/about/sq1.jpg" alt="" />
+                <img src="/dark/assets/imgs/about/ave.gif" alt="" />
               </div>
-              <div className="img2 wow fadeInLeft">
+              {/* <div className="img2 wow fadeInLeft">
                 <img src="/dark/assets/imgs/about/sq2.jpg" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-5 valign">
@@ -31,20 +31,20 @@ function Intro() {
               <div className="text">
                 <h2 className="d-slideup wow">
                   <span className="sideup-text">
-                    <span className="up-text">Watch the creative</span>
+                    <span className="up-text">Contact us,</span>
                   </span>
                   <span className="sideup-text">
-                    <span className="up-text">process behind our</span>
+                    <span className="up-text">Learn more about our</span>
                   </span>
                   <span className="sideup-text">
-                    <span className="up-text"><span className="sub-font">digital marketing</span>.</span>
+                    <span className="up-text"><span className="sub-font">lead generation</span>.</span>
                   </span>
                 </h2>
               </div>
               <div className="accordion bord mt-40">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">The Power of Influencer Marketing</h6>
+                    <h6 className="fz-18">How we can <u>garuantee</u> you leads.</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -53,7 +53,7 @@ function Intro() {
                 </div>
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">Unique and Influential Design</h6>
+                    <h6 className="fz-18">What we've learned.</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">

@@ -29,7 +29,7 @@ function HomeOnePage() {
   return (
     <>
       <Head>
-        <title>Geekfolio - One Page</title>
+        <title>Ave Media - One Page</title>
       </Head>
 
       <Loader />
@@ -40,12 +40,12 @@ function HomeOnePage() {
         <About />
         <Marq />
         <Services />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Intro />
-        <Testimonials />
-        <ImageSection />
-        <Team />
-        <Blog />
+        {/* <Testimonials />
+        <ImageSection /> */}
+        {/* <Team /> */}
+        {/* <Blog /> */}
         <Contact />
       </main>
       <Footer />
