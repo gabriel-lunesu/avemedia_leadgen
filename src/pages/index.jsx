@@ -2,19 +2,25 @@ import React, { useEffect } from 'react';
 //= Packages
 import Head from 'next/head';
 //= Layout
-import Layout from '@/layouts/preview';
+import Layout from '@/layouts/default';
 //= Components
-import Navbar from '@/components/Preview/Navbar';
-import Overlay from '@/components/Preview/Overlay';
-import Header from '@/components/Preview/Header';
-import Demos from '@/components/Preview/Demos';
-import Marq from '@/components/Preview/Marq';
-import Pages from '@/components/Preview/Pages';
-import ShopDemos from '@/components/Preview/ShopDemos';
-import CallToAction from '@/components/Preview/CallToAction';
-import Footer from '@/components/Preview/Footer';
+import Loader from '@/components/Common/Loader';
+import LinesTwo from '@/components/Common/LinesTwo';
+import Navbar from '@/components/Common/MainNavbar';
+import Header from '@/components/OnePage/Header';
+import About from '@/components/OnePage/About';
+import Marq from '@/components/OnePage/Marq';
+import Services from '@/components/OnePage/Services';
+import Portfolio from '@/components/OnePage/Portfolio';
+import Intro from '@/components/OnePage/Intro';
+import Testimonials from '@/components/OnePage/Testimonials';
+import ImageSection from '@/components/OnePage/Image';
+import Team from '@/components/OnePage/Team';
+import Blog from '@/components/OnePage/Blog';
+import Contact from '@/components/OnePage/Contact';
+import Footer from '@/components/OnePage/Footer';
 
-function LandingPreview() {
+function HomeOnePage() {
   useEffect(() => {
     document.body.classList.add('sub-bg');
     return () => document.body.classList.remove('sub-bg');
@@ -23,24 +29,30 @@ function LandingPreview() {
   return (
     <>
       <Head>
-        <title>Geekfolio - Preview</title>
+        <title>Ave Media - Lead Generation in UAE</title>
       </Head>
 
-      <Navbar />
-      <Overlay />
-      <main>
+      <Loader />
+      <LinesTwo />
+      {/* <Navbar curve noStatic /> */}
+      <main className="main-bg">
         <Header />
-        <Demos />
+        <About />
         <Marq />
-        <Pages />
-        <ShopDemos />
-        <CallToAction />
-        <Footer />
+        <Services />
+        {/* <Portfolio /> */}
+        <Intro />
+        {/* <Testimonials />
+        <ImageSection /> */}
+        {/* <Team /> */}
+        {/* <Blog /> */}
+        <Contact />
       </main>
+      {/* <Footer /> */}
     </>
   )
 }
 
-LandingPreview.getLayout = page => <Layout>{page}</Layout>
+HomeOnePage.getLayout = page => <Layout>{page}</Layout>
 
-export default LandingPreview;
+export default HomeOnePage;

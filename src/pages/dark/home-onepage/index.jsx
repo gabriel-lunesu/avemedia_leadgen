@@ -29,12 +29,12 @@ function HomeOnePage() {
   return (
     <>
       <Head>
-        <title>Ave Media - One Page</title>
+        <title>Ave Media - Lead Generation in UAE</title>
       </Head>
 
       <Loader />
       <LinesTwo />
-      <Navbar curve noStatic />
+      {/* <Navbar curve noStatic /> */}
       <main className="main-bg">
         <Header />
         <About />
@@ -48,7 +48,7 @@ function HomeOnePage() {
         {/* <Blog /> */}
         <Contact />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
